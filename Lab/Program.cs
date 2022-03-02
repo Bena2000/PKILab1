@@ -2,9 +2,14 @@
 
 public class Program
 {
+    static int Policz(int a, int b)
+    {
+        return a * b;
+    }
+
     static void Main(string[] args)
     {
-        // Display the number of command line arguments.
-        Console.WriteLine(args.Length);
+        Console.WriteLine($"W pierwszym branchu; 2+3={Policz(2, 3)}");
     }
+
 }
